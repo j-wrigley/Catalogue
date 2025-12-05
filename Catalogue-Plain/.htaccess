@@ -1,0 +1,67 @@
+# PHP Upload Limits - Increase file upload size
+<IfModule mod_php7.c>
+    php_value upload_max_filesize 50M
+    php_value post_max_size 50M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
+
+# For PHP 8+
+<IfModule mod_php.c>
+    php_value upload_max_filesize 50M
+    php_value post_max_size 50M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
+
+# URL Rewriting - Remove .html extension requirement
+# This allows URLs to work both with and without .html extension
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    
+    # Skip rewriting for CMS/admin and assets directories (must come first)
+    # Matches /catalogue/, /assets/, or /subfolder/catalogue/, /subfolder/assets/
+    RewriteCond %{REQUEST_URI} ^/([^/]+/)?(catalogue|assets)/ [NC]
+    RewriteRule ^ - [L]
+    
+    # Skip rewriting if the request already ends with .html
+    RewriteCond %{REQUEST_URI} \.html$ [NC]
+    RewriteRule ^ - [L]
+    
+    # Skip rewriting if the request is for an actual existing file
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+    
+    # Skip rewriting if the request is for an actual existing directory
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+    
+    # For all other requests: add .html extension if file exists
+    # Try multiple path resolution methods for maximum compatibility
+    # Method 1: Using REQUEST_FILENAME (resolves relative to .htaccess location)
+    RewriteCond %{REQUEST_FILENAME}.html -f [OR]
+    # Method 2: Using DOCUMENT_ROOT + REQUEST_URI (explicit full path)
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}.html -f
+    RewriteRule ^(.*)$ $1.html [L]
+</IfModule>
+
+# Security: Protect sensitive files
+# Block access to blueprint files, JSON configs, logs, and markdown files
+<FilesMatch "\.(yml|yaml|json|log|md)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+    <IfModule !mod_authz_core.c>
+        Order deny,allow
+        Deny from all
+    </IfModule>
+</FilesMatch>
+
+# Exception: Allow JSON files in /data/ directory (needed for frontend)
+# This is handled by catalogue/data/.htaccess which allows JSON files
+
+# Custom 404 Error Page
+# Handler is in the catalogue folder (CMS-related file)
+# Uses relative path - works in root or subfolder
+ErrorDocument 404 /catalogue/404-handler.php

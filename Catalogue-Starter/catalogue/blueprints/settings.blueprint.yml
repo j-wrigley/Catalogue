@@ -1,0 +1,80 @@
+title: Settings
+
+tabs:
+  general:
+    label: General
+  seo:
+    label: SEO
+  socials:
+    label: Socials
+
+fields:
+  # General Settings
+  site_name:
+    type: text
+    label: Site Name
+    category: general
+    column: 1
+    span: 1
+  site-tagline:
+    type: text
+    label: Site Tagline
+    category: general
+    column: 2
+    span: 1
+  site_description:
+    type: textarea
+    label: Site Description
+    category: general
+    column: 1
+    span: 2
+  # Socials
+  github_url:
+    type: text
+    label: GitHub URL
+    category: socials
+    column: 1
+    span: 1
+  threads_url:
+    type: text
+    label: Threads URL
+    category: socials
+    column: 1
+    span: 1
+  instagram_url:
+    type: text
+    label: Instagram URL
+    category: socials
+    column: 1
+    span: 1
+  linkedin_url:
+    type: text
+    label: LinkedIn URL
+    category: socials
+    column: 1
+    span: 1
+  # SEO Settings
+  meta_title:
+    type: text
+    label: Meta Title
+    category: seo
+    column: 1
+    span: 1
+  meta_description:
+    type: textarea
+    label: Meta Description
+    category: seo
+    column: 1
+    span: 2
+  meta_keywords:
+    type: tags
+    label: Meta Keywords
+    category: seo
+    column: 2
+    span: 1
+  og_image:
+    type: file
+    label: Open Graph Image
+    category: seo
+    column: 1
+    span: 2

@@ -1,0 +1,13 @@
+{
+    "_featured": "0",
+    "_status": "published",
+    "title": "404 - Page Not Found",
+    "message": "Sorry, the page you are looking for could not be found.",
+    "show_navigation": "1",
+    "navigation_text": "You might want to visit:",
+    "_meta": {
+        "updated": "2025-11-19T16:10:46+00:00",
+        "updated_by": "admin",
+        "created": "2025-01-01T00:00:00+00:00"
+    }
+}

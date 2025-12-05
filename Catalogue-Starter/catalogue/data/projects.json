@@ -1,0 +1,11 @@
+[
+    {
+        "title": "Example Project",
+        "description": "This is an example project entry.",
+        "image": {
+            "src": "/uploads/project.jpg",
+            "alt": "Example project"
+        },
+        "url": "https://example.com",
+        "date": "2024-01-01"
+    }

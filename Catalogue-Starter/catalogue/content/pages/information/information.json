@@ -1,0 +1,31 @@
+{
+    "_featured": "1",
+    "_status": "published",
+    "title": "Information",
+    "description": "Idea Index is an evolving collection of experimental tools built to support creativity, productivity, and the everyday practice of making things. It sits at the intersection of design and development, offering small systems, prototypes, and platforms that invite people to work, think, and create in new ways. Rather than positioning itself as a polished software suite, Idea Index embraces curiosity, treating toolmaking as a form of research and craft. Each project is designed to be adaptable and accessible, encouraging others to learn from it, extend it, or make something entirely new.",
+    "files": [],
+    "content": "The project explores how small tools and prototypes can shift the way people organise ideas, develop workflows, and build creative systems. It is grounded in the belief that toolmaking itself is a creative practice, one that benefits from openness and iteration. Idea Index adopts this mindset by working in public, showing the process behind each tool and inviting others to build with or beyond it.\n\nProjects within Idea Index evolve at different speeds. Every tool begins in beta, some will remain lightweight prototypes designed for exploration and learning, others will continue to develop into more stable, production-ready tools suitable for everyday use. While openness is a core value, not every tool is released as open source immediately; each project becomes public when it is sufficiently developed, documented, and structured for wider use. This staged approach ensures that openness supports learning rather than creating unnecessary friction.\n\n“Always in Beta” acts as a principle rather than a warning. It reflects a commitment to improvement, adjustment, and reinterpretation over time. Instead of working toward finality, Idea Index prioritises clarity, adaptability, and transparency, qualities that keep tools relevant and easy to build upon long after their first release.\n\nCreated as part of Present Standards, Idea Index contributes to a wider commitment to design-led research. The project investigates how designers can work directly with technology, building tools that bridge creative practice and software development. Through experimentation and prototyping, it seeks to understand how tools shape the work we do and the possibilities available to us.",
+    "meta_title": "Idea Index",
+    "meta_description": "Idea Index is an evolving collection of experimental tools built to support creativity, productivity, and the everyday practice of making things. It sits at the intersection of design and development, offering small systems, prototypes, and platforms that invite people to work, think, and create in new ways. Rather than positioning itself as a polished software suite, Idea Index embraces curiosity, treating toolmaking as a form of research and craft. Each project is designed to be adaptable and accessible, encouraging others to learn from it, extend it, or make something entirely new.",
+    "meta_keywords": [
+        "Experimental Tools",
+        "Always in Beta",
+        "Idea Index",
+        "Open Creative Systems",
+        "Design-Led Development",
+        "Practice-Based Toolmaking",
+        "Digital Craft",
+        "Lightweight Software",
+        "Design",
+        "Productivity",
+        "Experimental Platforms",
+        "Modular Tools",
+        "Creative Coding"
+    ],
+    "og_image": "",
+    "_meta": {
+        "updated": "2025-11-29T22:33:43+00:00",
+        "updated_by": "admin",
+        "created": "2025-11-20T21:39:04+00:00"
+    }
+}

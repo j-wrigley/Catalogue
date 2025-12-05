@@ -1,0 +1,119 @@
+title: Posts
+
+tabs:
+  content:
+    label: Content
+  seo:
+    label: SEO
+
+fields:
+  title:
+    type: text
+    label: Title
+    category: content
+    column: 1
+    span: 1
+    group: main-content
+  description:
+    type: textarea
+    label: Description
+    category: content
+    column: 1
+    span: 1
+    group: main-content
+  content:
+    type: markdown
+    label: Content
+    category: content
+    column: 1
+    span: 1
+    rows: 10
+    group: main-content
+  tags:
+    type: tags
+    label: Tags
+    category: content
+    column: 1
+    span: 1
+    group: main-content
+  project-links:
+    type: structure
+    label: Project Links
+    category: content
+    column: 2
+    span: 1
+    group: media-content
+    fields:
+      name:
+        type: text
+        label: Name
+        column: 1
+        span: 1
+      url:
+        type: text
+        label: URL
+        column: 2
+        span: 1
+      file:
+        type: file
+        label: File
+        column: 2
+        span: 1
+  project-status:
+    type: select
+    label: Project Status
+    category: content
+    column: 2
+    span: 1
+    group: media-content
+    options:
+      active: Active
+      inactive: Inactive
+      upcoming: Upcoming
+      completed: Completed
+      cancelled: Cancelled
+      on-hold: On Hold
+      in-progress: In Progress
+      in-review: In Review
+      in-development: In Development
+      in-production: In Production
+  featured-image:
+    type: file
+    label: Featured Image
+    category: content
+    column: 2
+    span: 1
+    group: media-content
+  files:
+    type: file
+    label: Files
+    category: content
+    column: 2
+    span: 1
+    multiple: true
+    group: media-content
+  # SEO Tab
+  meta_title:
+    type: text
+    label: Meta Title
+    category: seo
+    column: 1
+    span: 2
+  meta_description:
+    type: textarea
+    label: Meta Description
+    category: seo
+    column: 1
+    span: 2
+  meta_keywords:
+    type: tags
+    label: Meta Keywords
+    category: seo
+    column: 1
+    span: 2
+  og_image:
+    type: file
+    label: Open Graph Image
+    category: seo
+    column: 1
+    span: 2

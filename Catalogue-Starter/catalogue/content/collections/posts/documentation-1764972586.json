@@ -1,0 +1,58 @@
+{
+    "_featured": "0",
+    "_status": "published",
+    "_slug": "documentation",
+    "title": "Documentation",
+    "description": "Catalogue is a lightweight, flat-file CMS built around clarity, speed, and flexibility. It uses simple files instead of databases and generates static pages that are easy to deploy anywhere, making it an approachable tool for designers and developers who want control without unnecessary complexity. Currently in beta, it continues to evolve as an open, adaptable system within the Idea Index ecosystem.",
+    "content": "The documentation for Catalogue will be published across a set of structured Notion pages, offering clear sections for setup, blueprints, components, and deployment workflows. This space will grow as the platform develops, with updates arriving alongside new features and refinements. The page you’re reading now functions as an example collection, a simple starter kit designed to show how Catalogue works in practice and to give you a foundation you can immediately build on. Because the system is still evolving, the documentation remains a work in progress.",
+    "tags": [
+        "Collection",
+        "Catalogue",
+        "CMS",
+        "Template"
+    ],
+    "project-links": [
+        {
+            "name": "Documentation",
+            "url": "https://j-wrigley.notion.site/265ce344c740803087d7c78508684c0b?v=265ce344c7408024bb0e000c02b6f639&source=copy_link",
+            "file": ""
+        },
+        {
+            "name": "Idea Index",
+            "url": "https://ideaindex.xyz/",
+            "file": ""
+        },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/j-wrigley",
+            "file": ""
+        },
+        {
+            "name": "Threads",
+            "url": "https://www.threads.com/@j__wrigley",
+            "file": ""
+        },
+        {
+            "name": "Instagram",
+            "url": "https://www.instagram.com/j__wrigley/",
+            "file": ""
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/j-wrigley/",
+            "file": ""
+        }
+    ],
+    "project-status": "in-review",
+    "featured-image": "",
+    "files": [],
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": [],
+    "og_image": "",
+    "_meta": {
+        "updated": "2025-12-05T22:42:16+00:00",
+        "updated_by": "admin",
+        "created": "2025-12-05T22:09:46+00:00"
+    }
+}

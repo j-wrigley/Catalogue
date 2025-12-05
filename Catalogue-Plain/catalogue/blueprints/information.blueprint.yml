@@ -1,0 +1,64 @@
+title: Information
+
+tabs:
+  content:
+    label: Content
+  seo:
+    label: SEO  
+
+fields:
+  title:
+    type: text
+    label: Title
+    category: content
+    column: 1
+    span: 1
+    group: main-content
+  description:
+    type: textarea
+    label: Description
+    category: content
+    column: 1
+    span: 2
+    group: main-content
+  content:
+    type: markdown
+    label: Content
+    category: content
+    column: 1
+    span: 2
+    rows: 10
+    group: secondary-content
+  files:
+    type: file
+    label: Files
+    category: content
+    column: 1
+    span: 2
+    multiple: true
+    group: main-content
+  # SEO Tab
+  meta_title:
+    type: text
+    label: Meta Title
+    category: seo
+    column: 1
+    span: 2
+  meta_description:
+    type: textarea
+    label: Meta Description
+    category: seo
+    column: 1
+    span: 2
+  meta_keywords:
+    type: tags
+    label: Meta Keywords
+    category: seo
+    column: 1
+    span: 2
+  og_image:
+    type: file
+    label: Open Graph Image
+    category: seo
+    column: 1
+    span: 2

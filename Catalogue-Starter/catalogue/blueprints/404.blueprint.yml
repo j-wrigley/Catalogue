@@ -1,0 +1,25 @@
+title: 404 Error Page
+
+fields:
+  title:
+    type: text
+    label: Page Title
+    required: true
+    column: 1
+    span: 2
+  message:
+    type: textarea
+    label: Error Message
+    required: true
+    column: 1
+    span: 2
+    rows: 3
+  show_navigation:
+    type: switch
+    label: Show Navigation Links
+    column: 1
+  navigation_text:
+    type: text
+    label: Navigation Text
+    column: 2
+

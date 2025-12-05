@@ -1,0 +1,22 @@
+# Ignore logs
+logs/
+*.log
+
+# Ignore uploads (but keep directory structure)
+uploads/*
+!uploads/.gitkeep
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore user-created content (optional - uncomment if you want to exclude content)
+# content/*
+# !content/.gitkeep
+

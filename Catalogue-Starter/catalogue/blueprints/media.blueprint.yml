@@ -1,0 +1,26 @@
+title: Media Metadata
+
+fields:
+  alt_text:
+    type: text
+    label: Alt Text
+    description: Alternative text for images (important for accessibility)
+  caption:
+    type: textarea
+    label: Caption
+    rows: 3
+    description: Caption or description for the media file
+  description:
+    type: textarea
+    label: Description
+    rows: 5
+    description: Detailed description of the media file
+  credit:
+    type: text
+    label: Credit
+    description: Photo credit or attribution
+  tags:
+    type: tags
+    label: Tags
+    description: Tags for organizing media files
+
